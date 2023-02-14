@@ -95,7 +95,7 @@ export PATH="$HOME/opt/cross/bin:$PATH"
 
 ## Buiding the OS iso
 After creating the kernel.c, boot.s and linker.ld files, we can build the ISO of the OS.
-To do this, we can simply change the `COMP` variable to the path of our i686-elf-gcc 12.2.0 compiler in the Makefile and run `make all`.o
+To do this, we can simply change the `COMP` variable to the path of our i686-elf-gcc 12.2.0 compiler in the Makefile and run `make all`.
 
 Alternatively, follow the next steps.
 
